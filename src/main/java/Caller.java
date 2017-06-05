@@ -46,6 +46,7 @@ public class Caller {
         System.out.println(totalhdFalse + " response objects have false hd flags");
     }
     public static void main(String[] args) {
+        System.out.println("Sending Request...");
         try{
             Caller caller = new Caller();
             caller.getHDflag();
@@ -57,5 +58,6 @@ public class Caller {
         } catch (IOException e) {
             e.printStackTrace();
         }
+        System.out.println("End of Request.");
     }
 }
