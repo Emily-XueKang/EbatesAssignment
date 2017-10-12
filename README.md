@@ -23,7 +23,8 @@ Steps to run this program:
 
 5.More on parameters of this program: -n is the name of sender, -a1 is address line 1, -a2 is address line2, -c is city, -s is state, -z is zip code, -m is the message body
 
-    using double quotes to embrace input strings in one parameter
+  using double quotes to embrace input strings in one parameter
+
 
 
 
