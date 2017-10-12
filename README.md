@@ -21,9 +21,8 @@ Steps to run this program:
 
     java -cp target/lob-1.0.jar SendLetter -n "Joe Schmoe" -a1 "185 Berry Street" -a2 "Suite 170" -c "San Francisco" -s CA -z 94107 -m "This is a test letter for Lob’s coding challenge. Thank you legislator."
 
-5.More on parameters of this program: -n is the name of sender, -a1 is address line 1, -a2 is address line2, -c is city, -s is state, -z is zip code, -m is the message body
+5.More on parameters of this program: -n is the name of sender, -a1 is address line 1, -a2 is address line2, -c is city, -s is state, -z is zip code, -m is the message body, and using double quotes to embrace input strings in one parameter
 
-  using double quotes to embrace input strings in one parameter
 
 
 
